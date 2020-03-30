@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />  <! user-scalable=0 - by nie można było powiększać strony
-    <meta name="description" content="Strona ma na celu konwersję liczby na słowo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+    <! user-scalable=0 - by nie można było powiększać strony <meta name="description" content="Strona ma na celu konwersję liczby na słowo" />
     <title>Zmiana liczby na słowo</title>
 
-    <script type="text/javascript">
+    <script type="text/javascript" src="konwersja.js">
 
     </script>
 </head>
+
 <body>
-Wpisz liczbę:
-<input type="text" id="pole" />
-<input tupy="submit" value="sprawdź" onclick="slowa()"/>
+
+
+
+
+    <form id="slowa" action="">
+        <div>
+            Wpisz liczbę:
+            <input type="text" name="liczba"><br>
+            <button onclick="return slowa()">Zamień na słowa</button>
+            Tekst
+        </div>
+    </form>
 
 </body>
+
 </html>
